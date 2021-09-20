@@ -1,31 +1,30 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin        : 0;
+    padding       : 0;
+    box-sizing    : border-box;
 }
-
 html {
-    font-family: monospace;
+    font-family   : 'Raleway', sans-serif;
     font-size: 10px;
 }
 
-
 :root {
-    /* variables de color */
-    --rojo : rgb(240, 27, 27);
-    --verde: rgba(240, 27, 27, 0.274);
-    --amarillo: #F7E914;
+/* variables de color */
+    --beauBlue    : #D0E5F2;
+    --emerald     : #49BF66;
+    --grannyApple :#8FD99A;
+    --ming        : #18616A;
+    --salmon      :#F2786D;
 
-    /* variables de tamaño de letra */
-    --h1 : 25rem;
-    --h2 : 16rem;
-    --h3 : 14rem;
-    --parrafo : 1.5rem;
+/* variables de tamaño de letra */
+    --h1          : 3.6rem;
+    --h2          : 2.8rem;
+    --h3          : 2.4rem;
+    --parrafo     : 2rem;
+    --parrafoPeque: 1.6rem;
 }
 
-
 /* Estructura de las secciones */
-
 .background-section {
     width: 100%;
     padding-top: 5rem;
