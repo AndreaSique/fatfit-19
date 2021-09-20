@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: monospace;
+    font-size: 10px;
+}
+
+
+:root {
+    /* variables de color */
+    --rojo : rgb(240, 27, 27);
+    --verde: rgba(240, 27, 27, 0.274);
+    --amarillo: #F7E914;
+
+    /* variables de tamaño de letra */
+    --h1 : 25rem;
+    --h2 : 16rem;
+    --h3 : 14rem;
+    --parrafo : 1.5rem;
+}
+
+
+/* Estructura de las secciones */
+
+.background-section {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section-body {
+    max-width: 130rem;
+    height: auto;
+    margin: auto;
+}
