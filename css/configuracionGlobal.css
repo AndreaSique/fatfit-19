@@ -23,12 +23,9 @@ html {
     --parrafo     : 2rem;
     --parrafoPeque: 1.6rem;
 }
-
 /* Estructura de las secciones */
 .background-section {
     width: 100%;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
 }
 
 .section-body {
