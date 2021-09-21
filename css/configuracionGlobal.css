@@ -24,12 +24,7 @@ html {
     --parrafoPeque: 1.6rem;
 }
 /* Estructura de las secciones */
-.background-section {
-    width: 100%;
-}
-
-.section-body {
-    max-width: 130rem;
-    height: auto;
+.body{
+    max-width: 100%;
     margin: auto;
 }
