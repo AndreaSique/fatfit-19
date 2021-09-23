@@ -152,7 +152,8 @@ section{
 .caja-especialidades{
     width: 100%;
     height: 77rem;
-    background-color: var(--grannyApple);  
+    background-color: var(--grannyApple); 
+    overflow-x: hidden; 
 
     position: relative;
 }
@@ -161,9 +162,9 @@ section{
     color: var(--ming);
     text-align: center;
     padding-top: 2.5rem;
-    padding-bottom: 5.3rem;
+    padding-bottom: 4rem;
 }
-/*.caja-imagen-biologicas{
+.caja-imagen-biologicas{
     width: 15rem;
     height: 15rem;
     border-radius: 100%;
@@ -172,14 +173,91 @@ section{
     background-size: cover;
 }
 .caja-texto-biologicas{
-    width: 17.7rem;
+    width: 20rem;
     height: auto;
-    background-color: wheat;
 
     position: absolute;
     left: 14.9rem;
-    top: 19.1rem;
+    top: 14rem;
 }
 .caja-texto-biologicas-titulo{
     font-size: var(--h2);
-}*/
+    color: var(--ming);
+}
+.caja-texto-biologicas-parrafo{
+    font-size: var(--parrafoPeque);
+    color: #21572f;
+}
+.caja-imagen-design{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    margin-left: 25rem;
+    margin-top: 5rem;
+    background-image: url(../img/imgHome/designe.svg);
+    background-size: cover;    
+}
+.caja-texto-design{
+    width: 19rem;
+    height: auto;
+
+    position: absolute;
+    left: 4.4rem;
+    top: 34.5rem;
+}
+.caja-texto-design-titulo{
+    font-size: var(--h2);
+    color: var(--ming);
+    text-align: right;
+}
+.caja-texto-design-parrafo{
+    font-size: var(--parrafoPeque);
+    color: #21572f;
+    text-align: right;
+}
+.caja-imagen-progra{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    margin-left: -2rem;
+    margin-top: 5rem;
+    background-image: url(../img/imgHome/computer.svg);
+    background-size: cover;
+}
+.caja-texto-progra{
+    width: 19rem;
+    height: auto;
+
+    position: absolute;
+    left: 14.9rem;
+    top: 54.5rem;
+}
+.boton-especialidades{
+    width: 15rem;
+    height: 5.5rem;
+    background-color: var(--emerald);
+    color: #ffffff;
+    font-size: var(--parrafo);
+    border: none;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 3.5rem;
+    margin-left: 11.3rem;
+}
+
+/*sección verificación de información*/
+.caja-info-veridica{
+    width: 100%;
+    height: 47.5rem;
+    background-color: #F6F6F6;
+}
+.caja-info-veridica-titulo{
+    text-align: center;
+    font-size: var(--h3);
+    padding: 10.5rem 3.2rem 5rem 4rem;
+}
+.caja-info-veridica-parrafo{
+    text-align: center;
+    font-size: var(--parrafo);
+    padding: 0rem 3.2rem 0rem 4rem;
+}
