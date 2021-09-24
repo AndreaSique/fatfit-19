@@ -5,7 +5,8 @@ section{
 .caja-banner{
     width: 37.5rem;
     height: 75.9rem;
-    background-image: url(../img/imgHome/banner.svg);
+    background-image: url(../img/imgHome/banner.jpg);
+    background-size: cover;
 
     position: relative;
 }
@@ -60,7 +61,8 @@ section{
     height: 34.5rem;
     margin-top: 7.9rem;
     border-radius: 0px 10px 10px 0px;
-    background-image: url(../img/imgHome/banner2.svg);
+    background-image: url(../img/imgHome/banner2.jpg);
+    background-size: cover;
 
     position: relative;
 }
@@ -169,7 +171,7 @@ section{
     height: 15rem;
     border-radius: 100%;
     margin-left: -2rem;
-    background-image: url(../img/imgHome/biologicas.svg);
+    background-image: url(../img/imgHome/biologicas.jpg);
     background-size: cover;
 }
 .caja-texto-biologicas{
@@ -194,7 +196,7 @@ section{
     border-radius: 100%;
     margin-left: 25rem;
     margin-top: 5rem;
-    background-image: url(../img/imgHome/designe.svg);
+    background-image: url(../img/imgHome/designe.jpg);
     background-size: cover;    
 }
 .caja-texto-design{
@@ -221,7 +223,7 @@ section{
     border-radius: 100%;
     margin-left: -2rem;
     margin-top: 5rem;
-    background-image: url(../img/imgHome/computer.svg);
+    background-image: url(../img/imgHome/computer.jpg);
     background-size: cover;
 }
 .caja-texto-progra{
