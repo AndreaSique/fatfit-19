@@ -78,7 +78,7 @@ section{
 .caja-inicio-test{
     width: 100%;
     height:  100rem;
-    background-color: #797979; 
+    background-color: #E5E5E5; 
 }
 .caja-titulo-imc{
     font-size: var(--h2);
