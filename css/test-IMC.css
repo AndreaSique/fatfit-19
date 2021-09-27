@@ -5,7 +5,7 @@ section{
 .caja-test-imc{
     background-color: var(--beauBlue);
     width: 100%;
-    height: 105rem;
+    height: 75rem;
 }
 .test-titulo{
     font-size: var(--h2);
@@ -20,8 +20,8 @@ section{
     background-color: white;
     margin: auto;
     margin-top: 5.8rem;
-
     box-shadow: 0px 3px 5px rgba(40,40,40 0.25);
+    display: none;
 }
 .caja-test-subtitulo{
     font-size: var(--h3);
@@ -58,6 +58,8 @@ section{
     border-radius: 0px 0px 10px 10px;
     font-size: var(--parrafo);
     color: white;
+    cursor: pointer;
+
 }
 .caja-test-respuesta{
     width: 30.3rem;
@@ -66,8 +68,8 @@ section{
     background-color: white;
     margin: auto;
     margin-top: 5.8rem;
-
     box-shadow: 0px 3px 5px rgba(40,40,40 0.25);
+    display: none;
 }
 .resultado-titulo{
     font-size: var(--h3);
@@ -88,8 +90,19 @@ section{
     border:none;
     border-radius: 2rem;
 }
+.respuesta{
+    font-size: var(--parrafo);
+    width: 25.8rem;
+    color: black;
+    text-align: center;
+    margin-left: 2.3rem;
+    padding-top: 1.3rem;
+}
 .resultado-frase-final{
     font-size: var(--parrafoPeque);
     text-align: center;
     margin-top: 2.5rem;
+}
+.activar{
+    display: block;
 }
