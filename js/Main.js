@@ -32,3 +32,27 @@ function calcularIMC(elEvento){
 boton.addEventListener("submit", calcularIMC);
 
 })
+
+
+
+/* Section programacion */
+/*if(formula < 18.5){
+    cajarespuesta.innerHTML = '<p class="respuesta">tienes un bajo peso</p>'
+}else if(formula > 18.5 & formula < 24.9){
+    alert("normal");
+    cajarespuesta.innerHTML = '<p class="respuesta">tienes un peso normal</p>'
+}else if(formula > 25 & formula < 29.9){
+    alert("sobrepeso");
+    cajarespuesta.innerHTML = '<p class="respuesta">tienes sobrepeso</p>'
+}else if(formula >= 30){
+    alert("obesidad");
+    cajarespuesta.innerHTML = '<p class="respuesta">tienes obesidad</p>'
+    }
+
+}
+var boton = document.querySelector("#botonListo");
+boton.addEventListener("submit", calcularIMC);*/
+
+
+   
+    

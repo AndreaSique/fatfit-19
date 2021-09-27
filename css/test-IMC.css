@@ -6,6 +6,7 @@ section{
     background-color: var(--beauBlue);
     width: 100%;
     height: 75rem;
+    
 }
 .test-titulo{
     font-size: var(--h2);
@@ -89,6 +90,11 @@ section{
     background-color: #f6f6f6;
     border:none;
     border-radius: 2rem;
+    padding: 1.5rem;
+}
+.resultado-respuesta img{
+    margin-top: 1rem;
+    width: 5rem;
 }
 .respuesta{
     font-size: var(--parrafo);
