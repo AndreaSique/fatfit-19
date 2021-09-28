@@ -26,14 +26,17 @@
                     <h3 class="caja-test-subtitulo">(IMC) Índice de masa corporal</h3>
                     <p class="caja-test-frase">Identificar las categorias de peso que pueden llevar a problemas de salud</p>
                     <input id="inputPeso" type="number" placeholder="Peso en kilogramos" class="test-formulario-peso">
-                    <input id="inputAltura" type="number" placeholder="Altura en metros" class="test-formulario-peso">
+                    <input id="inputAltura" type="number" step="0.01" placeholder="Altura en metros" class="test-formulario-peso">
                     <button class="boton-test-listo" id="botonListo">¡Listo!</button>
                 </form>
 
                 <form class="caja-test-respuesta" id="segundaSeccion">
                     <h3 class="resultado-titulo">Resultado</h3>
                     <p class="resultado-frase">Tu IMC indica</p>
-                    <div class="resultado-respuesta respuesta" id="resultadoRespuesta">Que tienes un peso normal <br> <img src="img/noticias/visual_obesidad-IMC.png" alt=""></div>
+
+                    <div class="resultado-respuesta respuesta" id="resultadoRespuesta">
+                    </div>
+
                     <p class="resultado-frase-final">Recuerda que tu salud es primero</p>
                     <a href="#imc.html"><button class="boton-test-listo">Continuar</button></a>
                 </form>

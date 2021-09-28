@@ -1,25 +1,24 @@
-var peso = document.querySelector("#inputPeso").value;
-var altura = document.querySelector("#inputAltura").value;
-var boton = document.querySelector("#botonListo");
-var seccion1 = document.getElementById('primeraSeccion');
-var seccion2 = document.getElementById('segundaSeccion');
-var formula = peso/(altura*altura);
-
-function index(){
-    seccion1.classList.add("activar");
-}
-index();
-
-        boton.addEventListener("click", function(){
-        seccion2.classList.add("activar");
-        seccion1.classList.remove("activar");
+var seccion1 = document.querySelector("#primeraSeccion");
+var seccion2 = document.querySelector("#segundaSeccion");
 
 
 function calcularIMC(elEvento){
-    elEvento.preventDefault()
+    elEvento.preventDefault();
+
+    var peso = document.querySelector("#inputPeso").value;
+    var altura = document.querySelector("#inputAltura").value;
+    var formula = peso/(altura*altura);
+
+    seccion1.classList.add("desactivar");
+    seccion2.classList.add("activar");
+
+    console.log(formula);
 
     if(formula < 18.5){
-        resultadoRespuesta.innerHTML = '<p class="respuesta"> que tienes un bajo peso </p>'
+        resultadoRespuesta.innerHTML =  'que tienes un bajo peso'+
+                                        '<br>'+
+                                        '<img src="img/noticias/visual_obesidad-IMC.png" alt="">'
+
     }else if(formula > 18.5 & formula < 24.9){
         resultadoRespuesta.innerHTML = '<p class="respuesta"> que tienes un peso normal </p>'
     }else if(formula > 25 & formula < 29.9){
@@ -29,9 +28,9 @@ function calcularIMC(elEvento){
     }
 }
 
-boton.addEventListener("submit", calcularIMC);
+var boton = document.querySelector("#botonListo");
+seccion1.addEventListener("submit", calcularIMC);
 
-})
 
 
 

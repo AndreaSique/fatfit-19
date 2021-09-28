@@ -22,7 +22,6 @@ section{
     margin: auto;
     margin-top: 5.8rem;
     box-shadow: 0px 3px 5px rgba(40,40,40 0.25);
-    display: none;
 }
 .caja-test-subtitulo{
     font-size: var(--h3);
@@ -111,4 +110,7 @@ section{
 }
 .activar{
     display: block;
+}
+.desactivar{
+    display: none;
 }
