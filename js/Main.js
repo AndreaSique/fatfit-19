@@ -17,41 +17,23 @@ function calcularIMC(elEvento){
     if(formula < 18.5){
         resultadoRespuesta.innerHTML =  'que tienes un bajo peso'+
                                         '<br>'+
-                                        '<img src="img/noticias/visual_obesidad-IMC.png" alt="">'
+                                        '<img src="img/imgPeso/bajopeso.png">'
 
     }else if(formula > 18.5 & formula < 24.9){
-        resultadoRespuesta.innerHTML = '<p class="respuesta"> que tienes un peso normal </p>'
+        resultadoRespuesta.innerHTML =  'que tienes un peso normal'+
+                                        '<br>'+
+                                        '<img src="img/imgPeso/pesonormal.png">'
+
     }else if(formula > 25 & formula < 29.9){
-        resultadoRespuesta.innerHTML = '<p class="respuesta"> que tienes sobrepeso </p>'
+        resultadoRespuesta.innerHTML =  'que tienes sobrepeso'+
+                                        '<br>'+
+                                        '<img src="img/imgPeso/sobrepeso.png">'
     }else if(formula >= 30){
-        resultadoRespuesta.innerHTML = '<p class="respuesta"> que tienes obesidad </p>'
+        resultadoRespuesta.innerHTML =  'que tienes obesidad'+
+                                        '<br>'+
+                                        '<img src="img/imgPeso/obesidad.png">'
     }
 }
 
 var boton = document.querySelector("#botonListo");
-seccion1.addEventListener("submit", calcularIMC);
-
-
-
-
-/* Section programacion */
-/*if(formula < 18.5){
-    cajarespuesta.innerHTML = '<p class="respuesta">tienes un bajo peso</p>'
-}else if(formula > 18.5 & formula < 24.9){
-    alert("normal");
-    cajarespuesta.innerHTML = '<p class="respuesta">tienes un peso normal</p>'
-}else if(formula > 25 & formula < 29.9){
-    alert("sobrepeso");
-    cajarespuesta.innerHTML = '<p class="respuesta">tienes sobrepeso</p>'
-}else if(formula >= 30){
-    alert("obesidad");
-    cajarespuesta.innerHTML = '<p class="respuesta">tienes obesidad</p>'
-    }
-
-}
-var boton = document.querySelector("#botonListo");
-boton.addEventListener("submit", calcularIMC);*/
-
-
-   
-    
+seccion1.addEventListener("submit", calcularIMC);    
