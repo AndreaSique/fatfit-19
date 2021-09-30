@@ -15,25 +15,20 @@ function calcularIMC(elEvento){
     console.log(formula);
 
     if(formula < 18.5){
-        resultadoRespuesta.innerHTML =  'que tienes un bajo peso'+
-                                        '<br>'+
-                                        '<img src="img/imgPeso/bajopeso.png">'
+        resultadoRespuesta.innerHTML =  '<img class="resultado-respuesta-img" src="img/imgPeso/bajopeso.svg">'+
+                                        '<h3 class="resultado-imc">Bajo peso</h3>'
 
     }else if(formula > 18.5 & formula < 24.9){
-        resultadoRespuesta.innerHTML =  'que tienes un peso normal'+
-                                        '<br>'+
-                                        '<img src="img/imgPeso/pesonormal.png">'
+        resultadoRespuesta.innerHTML =  '<img class="resultado-respuesta-img" src="img/imgPeso/pesonormal.svg">'+
+                                        '<h3 class="resultado-imc">Peso normal</h3>'
 
     }else if(formula > 25 & formula < 29.9){
-        resultadoRespuesta.innerHTML =  'que tienes sobrepeso'+
-                                        '<br>'+
-                                        '<img src="img/imgPeso/sobrepeso.png">'
+        resultadoRespuesta.innerHTML =  '<img class="resultado-respuesta-img" src="img/imgPeso/sobrepeso.svg">'+
+                                        '<h3 class="resultado-imc">Sobrepeso</h3>'
     }else if(formula >= 30){
-        resultadoRespuesta.innerHTML =  'que tienes obesidad'+
-                                        '<br>'+
-                                        '<img src="img/imgPeso/obesidad.png">'
+        resultadoRespuesta.innerHTML =  '<img class="resultado-respuesta-img" src="img/imgPeso/obesidad.svg">'+
+                                        '<h3 class="resultado-imc">Obesidad</h3>'
     }
 }
-
 var boton = document.querySelector("#botonListo");
 seccion1.addEventListener("submit", calcularIMC);    

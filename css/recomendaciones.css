@@ -1,0 +1,130 @@
+section{
+    max-width: 37.5rem;
+    margin: auto;
+}
+.caja-portada{
+    width: 100%;
+    height: 24.1rem;
+    background-image: url(../img/imgPeso/portadaPesos.png);
+}
+.titulo-caja-protada{
+    color: #FFFFFF;
+    font-size: var(--h1);
+    padding: 16.1rem 0rem 3.4rem 3.6rem;
+}
+.caja-recomendaciones{
+    width: 100%;
+    height: auto;
+    background-color: #F6F6F6;
+    padding-top: 3.9rem;
+}
+.caja-botones{
+    width: 30.3rem;
+    height: 3.5rem;
+    border: 1px solid var(--salmon);
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.2rem;
+}
+.botones{
+    width: 14rem;
+    height: 2.9rem;
+    border-radius: 100px;
+}
+.botones a{
+    text-decoration: none;
+}
+.botones li{
+    list-style: none;
+    text-align: center;
+    font-size: var(--parrafoPeque);
+    color: black;
+    padding-top: 0.5rem;
+}
+.botones :hover{
+    background-color: var(--salmon);
+    width: 14rem;
+    height: 2.9rem;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.botones li:hover{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: var(--parrafoPeque);
+    color: #FFFFFF;
+}
+.caja-titulo-recomendaciones{
+    width: 30.3rem;
+    margin: auto;
+    margin-bottom: 3.9rem;
+}
+.caja-titulo-recomendaciones h3{
+    font-size: var(--h3);
+    text-align: center;
+}
+.caja-titulo-recomendaciones p{
+    font-size: var(--parrafoPeque);
+    color: #797979;
+    padding-top: 1.6rem;
+}
+.recomendaciones-seccion{
+    width: 100%;
+    height: 110rem;
+    margin-top: 3.9rem;
+
+    display: none;
+}
+.recomendaciones-cajita{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 1.6rem;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.recomendaciones{
+    background-color: #FFFFFF;
+    width: 14.5rem;
+    height: 15rem;
+    box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.recomendaciones p{
+    font-size: var(--parrafoPeque);
+    font-weight: 600;
+    padding: 1.1rem 1rem 0rem 1.3rem;
+}
+/*INICIA CAJA DE EJERCICIOS RECOMENDADOS*/
+.caja-ejercicios{
+    width: 100%;
+    height: 165rem;
+    background-color: #F6F6F6;
+    padding-top: 3.9rem;
+
+    display: none;
+}
+.ejercicios{
+    background-color: #FFFFFF;
+    width: 30.3rem;
+    height: 19rem;
+    box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 2.2rem;
+}
+.ejercicios p{
+    font-size: var(--parrafoPeque);
+    font-weight: 600;
+    padding: 14.9rem 1rem 2.2rem 2.4rem;
+}
+
+.activar{
+    display: block;
+}
