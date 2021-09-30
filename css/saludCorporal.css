@@ -142,7 +142,6 @@ section{
 	position: relative;
 }
 .caja-recomendaciones-cajita{
-    background-color: #C4C4C4;
     width: 22.5rem;
     height: 21.8rem;
     margin: auto;
@@ -157,4 +156,20 @@ section{
     font-size: var(--parrafoPeque);
     padding: 0.2rem 1.5rem;
     color: #797979;
+}
+.bajopeso{
+    background-image: url(../img/imgPeso/bajopeso.png);
+    background-position: center;
+}
+.pesonormal{
+    background-image: url(../img/imgPeso/pesonormal.png);
+    background-position: center;
+}
+.sobrepeso{
+    background-image: url(../img/imgPeso/sobrepeso.png);
+    background-position: center;
+}
+.obesidad{
+    background-image: url(../img/imgPeso/obesidad.png);
+    background-position: center;
 }
