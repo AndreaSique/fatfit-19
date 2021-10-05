@@ -47,7 +47,7 @@ section{
 }
 .caja-Opciones-efectos{
     width: 35rem;
-    height: 9rem;
+    height: auto;
     margin-top: 3rem;
     margin-left: 1.2rem;
     background-color: white;
@@ -58,26 +58,22 @@ section{
     position: relative;
     transition: 1s;
 }
-/*ETIQUETAS DEL JS*/
-.cajaEfectos{
-    width: 35rem;
-    height: 22rem;
-    margin-top: 3rem;
-    margin-left: 1.2rem;
-    background-color: white;
-
-    box-shadow: 0px 1px 8px -1px rgba(112, 107, 107, 0.25);
-    border-radius: 1rem;
-    padding: 16px 0px 17px 23px;
-    position: relative;
-    transition: 1s;
+/*Contenidos*/
+.contenido{
+    display: none;    
 }
-.texto{
+.contenido .texto{
     font-size: var(--parrafoPeque);
     color: #797979;
     padding: 4.9rem 2.3rem 6.1rem 1.3rem;
     transition: 1s;
 }
+
+.activarContenido{
+    display: block;
+    transition: 0.3s;
+}
+
 
 /**********************************/
 .caja-fondo{
@@ -108,4 +104,11 @@ section{
     margin-left: 27rem;
     margin-top: 2.5rem;
     cursor: pointer;
+}
+
+
+
+/* ---------------- */
+.ocultar{
+    display: none;
 }
