@@ -5,7 +5,7 @@ section{
 .caja-test-imc{
     background-color: var(--beauBlue);
     width: 100%;
-    height: 75rem;
+    height: 80rem;
     
 }
 .test-titulo{
@@ -49,7 +49,7 @@ section{
     padding-left: 1.9rem;
     border: none;
 }
-.boton-test-listo{
+.boton-test-listo1{
     width: 30.3rem;
     height: 4.6rem;
     margin-top: 5rem;
@@ -59,7 +59,17 @@ section{
     font-size: var(--parrafo);
     color: white;
     cursor: pointer;
-
+}
+.boton-test-listo{
+    width: 30.3rem;
+    height: 6.6rem;
+    margin-top: 5rem;
+    background-color: var(--ming);
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    font-size: var(--parrafo);
+    color: white;
+    cursor: pointer;
 }
 .caja-test-respuesta{
     width: 30.3rem;
@@ -83,17 +93,15 @@ section{
 }
 .resultado-respuesta{
     width: 26.1rem;
-    height: 21.7rem;
+    height: 21.8rem;
     margin-left: 2.1rem;
     margin-top: 3.1rem;
-    background-color: #f6f6f6;
     border:none;
     border-radius: 2rem;
-    padding: 1.5rem;
 }
-.resultado-respuesta img{
-    margin-top: 1rem;
-    width: 5rem;
+.resultado-imc{
+    font-size: var(--h3);
+    text-align: center;
 }
 .respuesta{
     font-size: var(--parrafo);
@@ -106,7 +114,7 @@ section{
 .resultado-frase-final{
     font-size: var(--parrafoPeque);
     text-align: center;
-    margin-top: 2.5rem;
+    margin-top: 6rem;
 }
 .activar{
     display: block;
