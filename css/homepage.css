@@ -255,6 +255,7 @@ section{
     border-radius: 10px;
     margin-top: 3.5rem;
     margin-left: 11.3rem;
+    cursor: pointer;
 }
 
 /*sección verificación de información*/
