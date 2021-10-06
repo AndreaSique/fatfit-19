@@ -1,12 +1,9 @@
-section{
-    max-width: 37.5rem;
-    margin: auto;
-}
 .caja-sintomas{
     background-color: #F6F6F6;
     width: 100%;
-    height: 201rem;
+    height: auto;
     padding-top: 4rem;
+    padding-bottom: 10rem;
 }
 .nav {
     width: 30.3rem;
@@ -55,9 +52,12 @@ section{
 .caja-general-sintomas{
     width: 100%;
     height: auto;
+    margin-top: 5rem;
+
+    display: none;
 }
 .caja-opciones-sintomas{
-    width: 95%;
+    width: 100%;
     height: auto;
     margin: auto;
     margin-top: 1.6rem;
@@ -65,48 +65,49 @@ section{
     display: flex;
     justify-content: space-evenly;
 }
-.opcion{
-    background-color: #FFFFFF;
-    width: 14rem;
-    height: 14rem;
-    filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 10px;
-    border: 3px solid #18616a;
-    margin-top: 3.4rem;
-}
-.cajaopcion{
-    width: 9rem;
-    height: 9rem;
-    margin: 2.3rem;
-    border: 1px solid #18616a;
-    background-color: rgba(24, 97, 106, 0.05);
-    border-radius: 100%;
-    padding: 1rem;
-}
-.cajaopcion img{
-    width: 7rem;
-    margin: auto;   
-}
-.sintoma-nombre{
+.checkeable-texto{
     font-size: var(--parrafoPeque);
     color: #18616a;
-    padding-top: 0.7rem;
     text-align: center;
+    margin-top: 0.7rem;
 }
-.botonContinuar{
+input[type=checkbox]{
+    display: none;
+}
+.checkeable img{
+    width: 14rem;
+    height: 14rem;
+    padding: 3rem;
+    border: 5px solid var(--ming);
+    background-color: #ffffff;
+    border-radius: 1rem;
+    filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.checkeable input {
+    display: none;
+}
+.checkeable input:checked +img{
+    border-color: var(--grannyApple);
+}
+.botonCalcular{
     width: 25rem;
     height: 5rem;
     margin-left: 6rem;
-    margin-top: 8rem;
-    background-color: #D0E5F2;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 1rem;
+    margin-top: 2.5rem;
+    background-color: var(--beauBlue);
     border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
 
     font-size: var(--parrafo);
     color: var(--ming);
-    text-align: center;
     cursor: pointer;
+}
+.respuesta{
+    width: 100%;
+    height: auto;
+
+    display: none;
 }
 .subtitulo{
     width: 30.3rem;
@@ -116,6 +117,7 @@ section{
     background-color: #D0E5F2;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
+
 }
 .subtitulo p{
     font-size: var(--parrafoPeque);
@@ -140,9 +142,6 @@ section{
     margin: auto;
     padding-top: 0.8rem;
     text-align: center;
-}
-.caja-general-sintomas, .respuesta{
-    display: none;
 }
 .activar{
     display: block;
