@@ -47,7 +47,7 @@ section{
 }
 .caja-Opciones-efectos{
     width: 35rem;
-    height: 9rem;
+    height: auto;
     margin-top: 3rem;
     margin-left: 1.2rem;
     background-color: white;
@@ -56,7 +56,26 @@ section{
     border-radius: 1rem;
     padding: 16px 0px 17px 23px;
     position: relative;
+    transition: 1s;
 }
+/*Contenidos*/
+.contenido{
+    display: none;    
+}
+.contenido .texto{
+    font-size: var(--parrafoPeque);
+    color: #797979;
+    padding: 4.9rem 2.3rem 6.1rem 1.3rem;
+    transition: 1s;
+}
+
+.activarContenido{
+    display: block;
+    transition: 0.3s;
+}
+
+
+/**********************************/
 .caja-fondo{
     width: 5.7rem;
     height: 5.7rem;
@@ -84,4 +103,12 @@ section{
     border: none;
     margin-left: 27rem;
     margin-top: 2.5rem;
+    cursor: pointer;
+}
+
+
+
+/* ---------------- */
+.ocultar{
+    display: none;
 }
