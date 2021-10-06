@@ -5,7 +5,7 @@ section{
 .caja-sintomas{
     background-color: #F6F6F6;
     width: 100%;
-    height: 220rem;
+    height: 201rem;
     padding-top: 4rem;
 }
 .nav {
@@ -52,7 +52,10 @@ section{
     margin-top: 5.5rem;
     margin-left: 6rem;
 }
-
+.caja-general-sintomas{
+    width: 100%;
+    height: auto;
+}
 .caja-opciones-sintomas{
     width: 95%;
     height: auto;
@@ -90,7 +93,21 @@ section{
     padding-top: 0.7rem;
     text-align: center;
 }
+.botonContinuar{
+    width: 25rem;
+    height: 5rem;
+    margin-left: 6rem;
+    margin-top: 8rem;
+    background-color: #D0E5F2;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    border: none;
 
+    font-size: var(--parrafo);
+    color: var(--ming);
+    text-align: center;
+    cursor: pointer;
+}
 .subtitulo{
     width: 30.3rem;
     height: 7rem;
@@ -99,8 +116,6 @@ section{
     background-color: #D0E5F2;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
-    
-
 }
 .subtitulo p{
     font-size: var(--parrafoPeque);
@@ -125,4 +140,10 @@ section{
     margin: auto;
     padding-top: 0.8rem;
     text-align: center;
+}
+.caja-general-sintomas, .respuesta{
+    display: none;
+}
+.activar{
+    display: block;
 }

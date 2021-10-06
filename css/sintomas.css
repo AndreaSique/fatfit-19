@@ -1,12 +1,9 @@
-section{
-    max-width: 37.5rem;
-    margin: auto;
-}
 .caja-sintomas{
     background-color: #F6F6F6;
     width: 100%;
-    height: 200rem;
+    height: auto;
     padding-top: 4rem;
+    padding-bottom: 10rem;
 }
 .nav {
     width: 30.3rem;
@@ -29,7 +26,6 @@ section{
 .nav a{
     width: 9.5rem;
     text-decoration: none;
-
 }
 .nav p:hover{
     height: 4.5rem;
@@ -54,27 +50,27 @@ section{
 
     box-shadow: 0px 1px 8px -1px rgba(112, 107, 107, 0.25);
     border-radius: 1rem;
-    padding: 16px 0px 17px 23px;
+    padding: 1.6rem 0rem 1.5rem 2.3rem;
     position: relative;
-    transition: 1s;
 }
 /*Contenidos*/
 .contenido{
+    width: 30rem;
+    height: 10rem;
+    margin-top: 4rem;
+    margin-left: 0.8rem;
+}
+.contenido{
     display: none;    
 }
-.contenido .texto{
+.contenido{
     font-size: var(--parrafoPeque);
     color: #797979;
-    padding: 4.9rem 2.3rem 6.1rem 1.3rem;
-    transition: 1s;
 }
-
 .activarContenido{
     display: block;
     transition: 0.3s;
 }
-
-
 /**********************************/
 .caja-fondo{
     width: 5.7rem;
@@ -93,7 +89,7 @@ section{
     font-size: var(--parrafoPeque);
     color: var(--ming);
     margin-left: 7rem;
-    margin-top: 2rem;
+    margin-top: 1.8rem;
     font-weight: 500;
     position: absolute;
 }
@@ -105,10 +101,23 @@ section{
     margin-top: 2.5rem;
     cursor: pointer;
 }
-
-
-
+.boton2{
+    background-color: white;
+    
+    border: none;
+    margin-left: 27rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.ico2{
+    transform: rotate(180deg);
+    display: none;
+    cursor: pointer;
+}
 /* ---------------- */
+.aparecer{
+    display: block;
+}
 .ocultar{
     display: none;
 }
