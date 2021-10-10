@@ -74,8 +74,8 @@ input[type=checkbox]{
     display: none;
 }
 .checkeable img{
-    width: 14rem;
-    height: 14rem;
+    width: 15rem;
+    height: 15rem;
     padding: 3rem;
     border: 5px solid var(--ming);
     background-color: #ffffff;
