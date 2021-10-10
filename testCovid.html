@@ -26,11 +26,10 @@
                     <a href="testCovid.html"><p>Test</p></a>
             </nav>
 
-            <div class="parrafo">
-                <p class="parrafo-intro">No podemos confirmar o negar que tengas alguna variante o el virus mismo, pero te podemos dar una guía para saber si es o no necesario el hacerse la prueba médica.</p>
-            </div>
-
             <article class="caja-general-sintomas" id="cajaGeneral1">
+                <div class="parrafo">
+                    <p class="parrafo-intro">No podemos confirmar o negar que tengas alguna variante o el virus mismo, pero te podemos dar una guía para saber si es o no necesario el hacerse la prueba médica.</p>
+                </div>
                 <h3 class="titulo-instrucciones">Selecciona todos los sintomas que poseas</h3>
 
                 <form action="">
@@ -133,6 +132,7 @@
                         </label>                        
                     </div>
 
+                    <div class="cajaBoton">Asegurate de conocer bien los síntomas aquí</div>
                     <button type="submit" class="botonCalcular" id="botonContinuar">Calcular</button>
                    
                 </form>
@@ -140,10 +140,49 @@
 
             <article class="respuesta" id="cajaGeneral2">
                 <div class="subtitulo">
-                    <p>Asegurate de conocer bien los síntomas aquí</p>
+                    <p>Tus resultados indican...</p>
                 </div>
-                <div class="probabilidad"></div>
-                <p class="probabilidad-respuesta">0% <br> Probabilidad</p>
+
+                <div class="caja-probabilidad">
+                    <div class="probabilidad" id="caja_img_probabilidad"></div>
+                    <div class="texto-respuesta" id="caja_texte_probabilidad"></div>
+                </div>
+
+                <div class="caja_recomendaciones">
+                    <h3 class="recoCovidTitulo">Recomendaciones generales</h3>
+                    
+                    <div class="recomendacionesCovid">
+                        <p>Lavado frecuente de manos a base de agua y jabón o con algún desinfectante a base de alcohol para eliminar los virus.</p>
+                        <img src="img/recomendacionesCovid/lavar-manos-min.png" class="reco1">
+                    </div>
+
+                    <div class="recomendacionesCovid">
+                        <p>Mantener una distancia mínima de 1 metro con cualquier persona que tosa o estornude.</p>
+                        <img src="img/recomendacionesCovid/distacia-min.png" class="reco2">
+                    </div>
+
+                    <div class="recomendacionesCovid">
+                        <p class="reco3-texto">Evitar tocarse los ojos, la nariz y la boca.</p>
+                        <img src="img/recomendacionesCovid/bla-min.png" class="reco3">
+                    </div>
+
+                    <div class="recomendacionesCovid">
+                        <p>Si se presentan síntomas respiratorios, evitar el contacto cercano con otras personas.</p>
+                        <img src="img/recomendacionesCovid/no.contacto-min.png" class="reco4">
+                    </div>
+
+                    <div class="recomendacionesCovid">
+                        <p>Si se empiezan a notar síntomas relacionados con COVID-19, llamar por teléfono a los números habilitados por cada comunidad para recibir asesoramiento médico.</p>
+                        <img src="img/recomendacionesCovid/salud-medica-min.png" class="reco5">
+                    </div>
+
+                    <div class="recomendacionesCovid">
+                        <p>No salir de casa salvo para lo imprescindible (trabajar en servicios de primera necesidad, comprar comida o medicamentos).</p>
+                        <img src="img/recomendacionesCovid/star-home-min.png" class="reco6">
+                    </div>
+
+                </div>
+                
             </article>         
 
     </section>
@@ -157,3 +196,4 @@
         <script src="js/testCovid.js"></script>
 </body>
 </html>
+

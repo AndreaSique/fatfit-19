@@ -47,14 +47,13 @@
     font-size: var(--h3);
     text-align: left;
     margin-top: 5.5rem;
+    margin-bottom: 3.4rem;
     margin-left: 6rem;
 }
 .caja-general-sintomas{
     width: 100%;
     height: auto;
     margin-top: 5rem;
-
-    display: none;
 }
 .caja-opciones-sintomas{
     width: 100%;
@@ -89,60 +88,137 @@ input[type=checkbox]{
 .checkeable input:checked +img{
     border-color: var(--grannyApple);
 }
-.botonCalcular{
-    width: 25rem;
-    height: 5rem;
-    margin-left: 6rem;
+.cajaBoton{
+    width: 30.3rem;
+    height: 7rem;
+    margin-left: 3.6rem;
     margin-top: 2.5rem;
+    padding-top: 1.5rem;
     background-color: var(--beauBlue);
     border: none;
     border-radius: 1rem;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
 
-    font-size: var(--parrafo);
+    text-align: center;
+    font-size: var(--parrafoPeque);
+    font-weight: bold;
     color: var(--ming);
+}
+.botonCalcular{
+    width: 18.5rem;
+    height: 18.5rem;
+    margin-left: 9.5rem;
+    margin-top: 2.5rem;
+    background-color: var(--ming);
+    border: none;
+    border-radius: 100%;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+
+    font-size: var(--h3);
+    color: #ffffff;
     cursor: pointer;
 }
 .respuesta{
     width: 100%;
     height: auto;
-
+    padding-bottom: 1rem;
     display: none;
 }
 .subtitulo{
     width: 30.3rem;
-    height: 7rem;
+    height: auto;
     margin: auto;
-    margin-top: 8rem;
-    background-color: #D0E5F2;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 1rem;
-
-}
-.subtitulo p{
-    font-size: var(--parrafoPeque);
-    width: 23.7rem;
-    color: var(--ming);
+    margin-top: 5.5rem;
+    
+    font-size: var(--h3);
+    color: black;
     text-align: center;
-    margin: auto;
-    padding-top: 1.5rem;
+    font-weight: bold;
+}
+.caja-probabilidad{
+    width: 100%;
+    height: 35rem;
 }
 .probabilidad{
-    width: 18.5rem;
-    height: 18.5rem;
+    width: 25rem;
+    height: 25rem;
     margin: auto;
-    margin-top: 2.9rem;
-    background-color: var(--ming);
-    border-radius: 100%;
-    
+    margin-top: 2.9rem; 
 }
 .probabilidad-respuesta{
-    width: 12rem;
-    font-size: var(--parrafoPeque);
+    font-size: var(--h3);
+    font-weight: 500;
     margin: auto;
     padding-top: 0.8rem;
     text-align: center;
 }
+.texto-respuesta{
+    width: 25rem;
+    height: 10rem;
+    margin: auto;
+}
+.caja_recomendaciones{
+    width: 100%;
+    height: auto;
+}
+.recoCovidTitulo{
+    font-size: var(--h3);
+    text-align: center;
+    padding: 7rem 3.4rem 0rem 3.4rem;
+}
+.recomendacionesCovid{
+    width: 35rem;
+    height: 19rem;
+    background: #FFFFFF;
+    margin: auto;
+    margin-top: 2.3rem;
+    box-shadow: 0px 1px 8px rgba(112, 107, 107, 0.25);
+    border-radius: 1rem;
+    padding: 3.2rem 13.6rem 3.2rem 2.4rem;
+}
+.recomendacionesCovid p{
+    font-size: var(--parrafoPeque);
+    color: #1F1F1F;
+}
+.reco1{
+    width: 70%;
+    margin-top: -20rem;
+    margin-left: 19rem;
+}
+.reco2{
+    width: 70%;
+    margin-top: -10rem;
+    margin-left: 18rem;
+}
+.reco3{
+    width: 65%;
+    margin-top: -4rem;
+    margin-left: 19rem;
+}
+.reco4{
+    width: 75%;
+    margin-top: -9rem;
+    margin-left: 18rem;
+}
+.reco5{
+    width: 65%;
+    margin-top: -20rem;
+    margin-bottom: 1.5rem;
+    margin-left: 19rem;
+}
+.reco6{
+    width: 80%;
+    margin-top: -13rem;
+    margin-left: 17rem;
+}
+.resultCovid-img{
+    width: 100%;
+}
+
 .activar{
     display: block;
 }
+.desactivar{
+    display: none;
+}
+

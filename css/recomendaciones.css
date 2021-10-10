@@ -1,7 +1,3 @@
-section{
-    max-width: 37.5rem;
-    margin: auto;
-}
 .caja-portada{
     width: 100%;
     height: 24.1rem;
@@ -73,10 +69,18 @@ section{
     color: #797979;
     padding-top: 1.6rem;
 }
+.caja-titulo-recomendaciones2 p{
+    font-size: var(--parrafoPeque);
+    color: #797979;
+    padding-top: 1.6rem;
+    padding: 0rem 3.6rem 4rem 3.6rem;
+    text-align: left;
+}
 .recomendaciones-seccion{
     width: 100%;
-    height: 110rem;
+    height: auto;
     margin-top: 3.9rem;
+    padding-bottom: 12rem;
 
     display: none;
 }
@@ -96,21 +100,43 @@ section{
     box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
-.recomendaciones p{
+.recomendaciones3{
+    background-color: #FFFFFF;
+    width: 30.3rem;
+    height: 20.9rem;
+    box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.recomendaciones p, .recomendaciones3 h3{
     font-size: var(--parrafoPeque);
     font-weight: 600;
-    padding: 1.1rem 1rem 0rem 1.3rem;
+    padding: 1.1rem 5rem 0rem 1.3rem;
 }
-.recomendaciones img{
-    width: 8.8rem;
-    margin-left: 5.7rem;
+.recomendaciones3 h3{
+    font-size: var(--parrafoPeque);
+    font-weight: 600;
+    padding: 1.1rem 5rem 0rem 2rem;
+}
+.recomendaciones3 p{
+    font-size: var(--parrafoPeque);
+    color: #797979;
+    padding-top: 1.6rem;
+    padding: 1rem 2.8rem 0rem 2rem;
+}
+.parrafo-alimentos2{
+    font-size: var(--parrafoPeque);
+    color: #797979;
+    padding-top: 1.6rem;
+    padding: 1rem 12rem 0rem 2rem;
+    font-weight: lighter;
 }
 /*INICIA CAJA DE EJERCICIOS RECOMENDADOS*/
 .caja-ejercicios{
     width: 100%;
-    height: 165rem;
+    height: auto;
     background-color: #F6F6F6;
     padding-top: 3.9rem;
+    padding-bottom: 10rem;
 
     display: none;
 }
@@ -123,12 +149,204 @@ section{
     margin: auto;
     margin-top: 2.2rem;
 }
-.ejercicios p{
+.ejercicios2{
+    background-color: #FFFFFF;
+    width: 30.3rem;
+    height: 27rem;
+    box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 2.2rem;
+}
+.ejercicios p, .ejercicios2 h3{
     font-size: var(--parrafoPeque);
     font-weight: 600;
-    padding: 14.9rem 1rem 2.2rem 2.4rem;
+    padding: 0rem 1rem 0rem 2.4rem;
+}
+.ejercicios2 p{
+    font-size: var(--parrafoPeque);
+    color: #797979;
+    padding: 0.3rem 2rem 0rem 2.4rem;
 }
 
 .activar{
     display: block;
+}
+/************************************************/
+.leche{
+    width: 60%;
+    margin-left: 5.7rem;
+}
+.leche2{
+    width: 30%;
+    margin-left: 21.5rem;
+    margin-top: -5rem;
+}
+.verduras{
+    width: 90%;
+    margin-left: 1.5rem;
+    margin-top: 0.4rem;
+}
+.cereales{
+    width: 90%;
+    margin-left: 1.4rem;
+    margin-top: -1rem;
+}
+.carnes{
+    width: 75%;
+    margin-left: 3.6rem;
+    margin-top: -0.5rem;
+}
+.carne2{
+    width: 30%;
+    margin-left: 21.2rem;
+    margin-top: -3.2rem;
+}
+.nueces{
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: -1rem;
+}
+.mariscos{
+    width: 90%;
+    margin-left: 1.5rem;
+    margin-top: 0.8rem;
+}
+.mariscos2{
+    width: 40%;
+    margin-left: 18.2rem;
+    margin-top: -5rem;
+}
+.legumbres{
+    width: 90%;
+    margin-left: 1.5rem;
+    margin-top: 0.8rem;
+}
+.legumbres2{
+    width: 40%;
+    margin-left: 18.1rem;
+    margin-top: -5rem;
+}
+.soya{
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: -2.3rem;
+}
+.huevos{
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+.batidos{
+    width: 65%;
+    margin-left: 5rem;
+    margin-top: -2rem;
+}
+.arroz{
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: -1rem;
+}
+.panIntegral{
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+.aguacate{
+    width: 75%;
+    margin-left: 3.6rem;
+    margin-top: 0.5rem;
+}
+.frutas{
+    width: 85%;
+    margin-left: 2.2rem;
+    margin-top: -2.4rem;
+}
+.frutas2{
+    width: 40%;
+    margin-left: 18.1rem;
+    margin-top: -3rem;
+}
+.almidones{
+    width: 90%;
+    margin-left: 1.5rem;
+}
+.suplementos{
+    width: 85%;
+    margin-left: 2rem;
+}
+.grasas{
+    width: 50%;
+    margin-left: 15rem;
+    margin-top: -3rem;
+}
+.platillo{
+    width: 35%;
+    margin-left: 20rem;
+    margin-top: -1rem;
+}
+.agua{
+    width: 40%;
+    margin-left: 18rem;
+    margin-top: -7rem;
+}
+/*******************************************/
+.sentadillasPeso{
+    width: 50%;
+    margin-left: 7.3rem;
+    margin-top: 1.2rem;
+}
+.zancadas{
+    width: 50%;
+    margin-left: 8rem;
+    margin-top: 1.5rem;
+}
+.plancha1{
+    width: 50%;
+    margin-left: 7.5rem;
+    margin-top: 1.1rem;
+}
+.plancha{
+    width: 50%;
+    margin-left: 8rem;
+    margin-bottom: 0.5rem;
+}
+.subirEscaleras{
+    width: 90%;
+    margin-left: 2rem;
+    margin-top: 3.9rem;
+    margin-bottom: 1rem;
+}
+.mancuernas{
+    width: 60%;
+    margin: 0.8rem 0rem 0.4rem 5.9rem;
+}
+.presasConBarras{
+    width: 60%;
+    margin: 1.4rem 0rem 0.3rem 6.3rem;
+}
+.extensionesPierna{
+    width: 90%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.caminata{
+    width: 85%;
+    margin: 3.3rem 0rem 1.5rem 2.5rem;
+}
+.deporte{
+    width: 85%;
+    margin: 2.2rem 0rem 1.5rem 2rem;
+}
+.bicicleta{
+    width: 85%;
+    margin: 2.5rem 0rem 1.5rem 2rem;
+}
+.aerobico{
+    width: 80%;
+    margin: 2.2rem 0rem 1.5rem 3rem;
+}
+.neuromotor{
+    width: 75%;
+    margin: 1.3rem 0rem 1rem 3.8rem;
 }
