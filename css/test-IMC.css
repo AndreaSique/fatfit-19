@@ -64,6 +64,13 @@
     border: none;
     border-radius: 0px 0px 10px 10px;
     font-size: var(--parrafo);
+
+    padding: 2rem;
+    text-align: center;
+    
+}
+.boton-test-listo a{
+    text-decoration: none;
     color: white;
     cursor: pointer;
 }
