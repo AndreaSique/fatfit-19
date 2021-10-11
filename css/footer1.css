@@ -1,5 +1,5 @@
 .menu{
-    width: 37.5rem;
+    max-width: 41.4rem;
     height: 6.7rem;
     background-color: var(--beauBlue);
     margin: auto;
@@ -37,7 +37,7 @@
 }
 
 .menu2{
-    width: 37.5rem;
+    max-width: 41.4rem;
     height: 6.7rem;
     background-color: #ffffff;
     margin: auto;

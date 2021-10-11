@@ -27,6 +27,7 @@
     width: 37.5rem;
     height: 20rem;
     background-image: url(../img/imgVariantes/alpha.png);
+    margin: auto;
     margin-top: 6.3rem;
 }
 .variantes-nombres{
@@ -47,18 +48,21 @@
     width: 37.5rem;
     height: 20rem;
     background-image: url(../img/imgVariantes/beta.png);
+    margin: auto;
     margin-top: 3.6rem;
 }
 .caja-imagen3{
     width: 37.5rem;
     height: 20rem;
     background-image: url(../img/imgVariantes/gamma.png);
+    margin: auto;
     margin-top: 3.6rem;
 }
 .caja-imagen4{
     width: 37.5rem;
     height: 20rem;
     background-image: url(../img/imgVariantes/épsilon.png);
+    margin: auto;
     margin-top: 3.6rem;
 }
 
@@ -66,6 +70,7 @@
     width: 37.5rem;
     height: 20rem;
     background-image: url(../img/imgVariantes/eta.png);
+    margin: auto;
     margin-top: 3.6rem;
 }
 
@@ -73,6 +78,7 @@
     width: 37.5rem;
     height: 20rem;
     background-image: url(../img/imgVariantes/lota.png);
+    margin: auto;
     margin-top: 3.6rem;
 }
 
@@ -80,29 +86,34 @@
     width: 37.5rem;
     height: 20rem;
     background-image: url(../img/imgVariantes/kappa.png);
+    margin: auto;
     margin-top: 3.6rem;
 }
 .caja-imagen8{
     width: 37.5rem;
     height: 20rem;
     background-image: url(../img/imgVariantes/lambda.png);
+    margin: auto;
     margin-top: 3.6rem;
 }
 .caja-imagen9{
     width: 37.5rem;
     height: 20rem;
     background-image: url(../img/imgVariantes/theta.png);
+    margin: auto;
     margin-top: 3.6rem;
 }
 .caja-imagen10{
     width: 37.5rem;
     height: 20rem;
     background-image: url(../img/imgVariantes/zeta.png);
+    margin: auto;
     margin-top: 3.6rem;
 }
 .caja-imagen11{
     width: 37.5rem;
     height: 20rem;
     background-image: url(../img/imgVariantes/Mu.png);
+    margin: auto;
     margin-top: 3.6rem;
 }
